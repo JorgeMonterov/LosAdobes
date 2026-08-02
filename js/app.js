@@ -1,0 +1,1 @@
+console.log("Proyecto Los Adobes iniciado");
