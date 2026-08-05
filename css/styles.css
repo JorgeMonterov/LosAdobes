@@ -28,3 +28,77 @@ body {
     background-color: var(--color-light);
     color: var(--color-dark);
 }
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.header-content {
+    padding: 60px 20px;
+    background-color: var(--color-primary);
+}
+
+.header-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--color-secondary);
+}
+
+main {
+    min-height: 400px;
+}
+
+/* ==========================
+   Sección de bienvenida
+========================== */
+
+.bienvenida {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.bienvenida h2 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.bienvenida p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+.bienvenida .btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.bienvenida .btn-primary:hover {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--color-dark);
+}
