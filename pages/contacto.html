@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Contacto | Restaurante Los Adobes</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="pagina-interna pagina-contacto">
+
+    <!-- ==========================
+         Header
+    =========================== -->
+
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="../index.html">
+                    Los Adobes
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarPrincipal"
+                    aria-controls="navbarPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú de navegación"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarPrincipal"
+                >
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="../index.html"
+                            >
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="historia.html"
+                            >
+                                Historia
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="menu.html"
+                            >
+                                Menú
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="galeria.html"
+                            >
+                                Galería
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="ubicacion.html"
+                            >
+                                Ubicación
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="contacto.html"
+                            >
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Encabezado -->
+        <div class="header-content text-center">
+
+            <div class="container">
+
+                <h1>Contacto</h1>
+
+                <p>
+                    Estamos para atender tus consultas
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ==========================
+         Main
+    =========================== -->
+
+    <main>
+
+        <section class="contenido-pagina seccion-contacto">
+
+            <div class="container">
+
+                <div class="encabezado-seccion text-center">
+
+                    <h2>Comunícate con nosotros</h2>
+
+                    <p>
+                        Completa el formulario o utiliza nuestros
+                        medios de contacto.
+                    </p>
+
+                </div>
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- Información de contacto -->
+                    <article class="col-12 col-lg-5">
+
+                        <div class="tarjeta-contacto h-100">
+
+                            <h3>Información de contacto</h3>
+
+                            <div class="dato-contacto">
+
+                                <h4>Teléfono</h4>
+
+                                <p>
+                                    <a href="tel:+50600000000">
+                                        +506 8616-5884
+                                    </a>
+                                </p>
+
+                            </div>
+
+                            <div class="dato-contacto">
+
+                                <h4>Correo electrónico</h4>
+
+                                <p>
+                                    <a href="mailto:admin@restlosadobes.com">
+                                        admin@restlosadobes.com
+                                    </a>
+                                </p>
+
+                            </div>
+
+                            <div class="dato-contacto">
+
+                                <h4>Ubicación</h4>
+
+                                <p>
+                                    Alajuela, Costa Rica
+                                </p>
+
+                            </div>
+
+                            <div class="dato-contacto">
+
+                                <h4>Horario</h4>
+
+                                <p>
+                                    Martes a domingo:
+                                    11:00 a. m. a 10:00 p. m.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Formulario -->
+                    <article class="col-12 col-lg-7">
+
+                        <form
+                            class="formulario-contacto"
+                            id="formularioContacto"
+                            novalidate
+                        >
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="nombre"
+                                    class="form-label"
+                                >
+                                    Nombre completo
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nombre"
+                                    name="nombre"
+                                    placeholder="Escribe tu nombre completo"
+                                    required
+                                >
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="correo"
+                                    class="form-label"
+                                >
+                                    Correo electrónico
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="correo"
+                                    name="correo"
+                                    placeholder="ejemplo@correo.com"
+                                    required
+                                >
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="telefono"
+                                    class="form-label"
+                                >
+                                    Teléfono
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="telefono"
+                                    name="telefono"
+                                    placeholder="8888-8888"
+                                >
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="asunto"
+                                    class="form-label"
+                                >
+                                    Asunto
+                                </label>
+
+                                <select
+                                    class="form-select"
+                                    id="asunto"
+                                    name="asunto"
+                                    required
+                                >
+
+                                    <option value="" selected disabled>
+                                        Selecciona una opción
+                                    </option>
+
+                                    <option value="reservacion">
+                                        Reservación
+                                    </option>
+
+                                    <option value="menu">
+                                        Consulta sobre el menú
+                                    </option>
+
+                                    <option value="evento">
+                                        Información para eventos
+                                    </option>
+
+                                    <option value="otro">
+                                        Otro
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="mb-4">
+
+                                <label
+                                    for="mensaje"
+                                    class="form-label"
+                                >
+                                    Mensaje
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="mensaje"
+                                    name="mensaje"
+                                    rows="5"
+                                    placeholder="Escribe tu consulta"
+                                    required
+                                ></textarea>
+
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary"
+                            >
+                                Enviar mensaje
+                            </button>
+
+                        </form>
+
+                    </article>
+
+                </div>
+
+                <div class="text-center mt-5">
+
+                    <a
+                        href="../index.html"
+                        class="btn btn-outline-secondary"
+                    >
+                        Volver al inicio
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================
+         Footer
+    =========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-4 mb-4 mb-md-0">
+
+                    <h3>Los Adobes</h3>
+
+                    <p>
+                        Tradición, sabor y atención de calidad
+                        en un ambiente pensado para compartir.
+                    </p>
+
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0">
+
+                    <h3>Enlaces rápidos</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="../index.html">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="historia.html">
+                                Historia
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">
+                                Menú
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <h3>Contacto</h3>
+
+                    <p>Teléfono:  8616-5884</p>
+
+                    <p>
+                        Correo: admin@restlosadobes.com
+                    </p>
+
+                    <p>Ubicación: Alajuela, Costa Rica</p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+
+                <p class="copyright">
+                    &copy; 2024 Restaurante Los Adobes.
+                    Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript propio -->
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>
