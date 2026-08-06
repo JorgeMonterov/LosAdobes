@@ -355,3 +355,296 @@ main {
     min-height: 420px;
     border: 0;
 }
+
+/* ==========================
+   Página de contacto
+========================== */
+
+.seccion-contacto {
+    background-color: var(--color-light);
+}
+
+.tarjeta-contacto,
+.formulario-contacto {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-contacto h3 {
+    margin-bottom: 25px;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dato-contacto {
+    margin-bottom: 22px;
+}
+
+.dato-contacto h4 {
+    margin-bottom: 6px;
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dato-contacto p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.dato-contacto a {
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+.dato-contacto a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.formulario-contacto .form-label {
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.formulario-contacto .form-control,
+.formulario-contacto .form-select {
+    min-height: 45px;
+    border: 1px solid #ced4da;
+}
+
+.formulario-contacto textarea.form-control {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.formulario-contacto .form-control:focus,
+.formulario-contacto .form-select:focus {
+    border-color: var(--color-secondary);
+    box-shadow: 0 0 0 0.25rem rgba(212, 163, 115, 0.25);
+}
+
+/* ==========================
+   Página de historia
+========================== */
+
+.seccion-historia {
+    background-color: var(--color-light);
+}
+
+.imagen-historia {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-historia img {
+    display: block;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.imagen-historia figcaption {
+    padding: 15px;
+    color: var(--color-dark);
+    font-size: 0.95rem;
+    text-align: center;
+    background-color: white;
+}
+
+.texto-historia {
+    padding: 10px;
+}
+
+.texto-historia h3 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.texto-historia p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.tarjeta-valores {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-valores h3 {
+    margin-bottom: 15px;
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.tarjeta-valores p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.valores-restaurante h2 {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.tarjeta-valor-individual {
+    padding: 25px;
+    border-top: 4px solid var(--color-secondary);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-valor-individual h3 {
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.tarjeta-valor-individual p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* ==========================
+   Sección del propietario
+========================== */
+
+.seccion-propietario {
+    padding: 20px 0;
+}
+
+.imagen-propietario {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.imagen-propietario img {
+    display: block;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.imagen-propietario figcaption {
+    padding: 15px;
+    color: var(--color-dark);
+    font-size: 0.95rem;
+    text-align: center;
+    background-color: white;
+}
+
+.informacion-propietario {
+    padding: 20px;
+}
+
+.etiqueta-propietario {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.informacion-propietario h2 {
+    margin-bottom: 10px;
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.descripcion-destacada {
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.informacion-propietario p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+/* ==========================
+   Experiencia del propietario
+========================== */
+
+.tarjeta-experiencia {
+    padding: 25px;
+    border-bottom: 4px solid var(--color-primary);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-experiencia h3 {
+    margin-bottom: 14px;
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.tarjeta-experiencia p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+/* ==========================
+   Historia personal
+========================== */
+
+.bloque-historia {
+    padding: 35px;
+    border-left: 5px solid var(--color-secondary);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bloque-historia h2 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.bloque-historia p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.bloque-historia p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+
+    .imagen-propietario img {
+        height: 380px;
+    }
+
+    .informacion-propietario {
+        padding: 10px 0;
+    }
+
+    .bloque-historia {
+        padding: 25px;
+    }
+}
