@@ -152,3 +152,141 @@ main {
     margin: 0;
     font-size: 0.9rem;
 }
+
+/* ==========================
+   Páginas internas
+========================== */
+
+.contenido-pagina {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.contenido-pagina h2 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.contenido-pagina p {
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+/* ==========================
+   Encabezados de secciones
+========================== */
+
+.encabezado-seccion {
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.encabezado-seccion h2 {
+    margin-bottom: 15px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.encabezado-seccion p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+/* ==========================
+   Página de menú
+========================== */
+
+.tarjeta-menu {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-menu h3 {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+/* ==========================
+   Página de galería
+========================== */
+
+.galeria-item {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #e9ecef;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item img:hover {
+    transform: scale(1.05);
+}
+
+/* ==========================
+   Página de ubicación
+========================== */
+
+.mapa-contenedor {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px dashed var(--color-secondary);
+    background-color: #f4f4f4;
+}
+
+/* ==========================
+   Página de contacto
+========================== */
+
+.formulario-contacto {
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+/* ==========================
+   Página de galería
+========================== */
+
+.seccion-galeria {
+    background-color: var(--color-light);
+}
+
+.galeria-item {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.05);
+}
+
+.galeria-item figcaption {
+    padding: 15px;
+    color: var(--color-dark);
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
